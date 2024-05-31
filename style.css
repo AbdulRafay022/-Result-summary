@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    /* font-family: arial; */
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#ECF2FF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    height: 512px;
+    width: 736px;
+    border-radius: 32px;
+    background-color: white;
+    display: flex;
+}
+.section1{
+    height:100%;
+    width: 50%;
+    background:linear-gradient(#7755FF,#6943FF,#2F2CE9) ;
+    border-radius: 32px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    color:#CAC9FF;
+    font-size: 1.5rem;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(#4D21C9,#2521,#2521);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.score{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.no{
+    color: #CAC9FF;
+    font-size: 1.4rem;
+}
+.box3{
+    height: 113px;
+    width: 260px;
+    text-align: center;
+    font-size: 1.2rem;
+    align-items: center;
+    color: #CAC9FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+        color: white;
+        font-size: 2rem;
+    }
+}
+.section2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box1{
+    color:#303B59;
+    height: 28px;
+    width:288px;
+}
+#box2{
+    width: 288px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.score1{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    border-radius: 20px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 9px;
+    width: 71px;
+}
+.result{
+    font-size: 1.2rem;
+    color: #303B59;
+}
+button{
+    height: 56px;
+    width: 288px;
+    background-color: #303B59;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+button:hover{
+    background:linear-gradient(#7755FF,#6943FF,#2F2CE9) ;
+}
